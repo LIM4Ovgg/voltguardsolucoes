@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VoltGuard Engenharia</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <svg class="logo" viewBox="0 0 100 100" aria-hidden="true">
+          <rect width="100" height="100" rx="18" fill="var(--accent)" /><text x="50" y="58" font-size="48"
+            fill="var(--on-accent)" text-anchor="middle" font-family="Arial">LE</text>
+        </svg>
+        <span class="brand-text">VoltGuard Engenharia</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="engenharia-eletrica.html" class="active">Engenharia Elétrica</a>
+        <a href="index.html#servicos">Serviços</a>
+        <a href="index.html#contato">Contato</a>
+      </nav>
+      <a class="cta" href="index.html#contato">Solicitar Orçamento</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="single-hero electric-hero">
+      <div class="container">
+        <div class="single-hero-inner">
+          <div class="single-hero-text">
+            <h1>Engenharia Elétrica — Projetos e Execução</h1>
+            <p>Projetos completos para baixa e média tensão, com foco em conformidade e performance.</p>
+            <a class="btn" href="#servicos">Ver Serviços</a>
+          </div>
+          <div class="single-hero-media" aria-hidden="true">
+            <svg viewBox="0 0 500 300">
+              <rect width="500" height="300" rx="10" fill="#f1fbff" />
+              <g transform="translate(30,30)" stroke="var(--accent)" fill="none" stroke-width="3">
+                <rect width="220" height="120" rx="6" fill="#fff" />
+                <path d="M20 30h180M20 60h120M20 90h80" stroke-linecap="round" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="seta">↓</div>
+    </section>
+
+    <section id="servicos" class="container services-detail">
+      <h2>O que entregamos</h2>
+      <div class="services-list">
+        <div class="service-item">
+          <h3>Projetos de Instalações Elétricas</h3>
+          <p>Dimensionamento de circuitos, especificação de condutores, esquemas de proteção e unifilares.</p>
+        </div>
+        <div class="service-item">
+          <h3>Quadros e Painéis</h3>
+          <p>Projetos e montagem de quadros de distribuição e comando.</p>
+        </div>
+        <div class="service-item">
+          <h3>SPDA e Aterramento</h3>
+          <p>Proteção contra descargas atmosféricas e aterramento com medição e certificação.</p>
+        </div>
+        <div class="service-item">
+          <h3>Laudos e Perícias Técnicas</h3>
+          <p>Inspeções técnicas com emissão de relatório e ART.</p>
+        </div>
+      </div>
+
+      <aside class="project-cta">
+        <h4>Solicite um orçamento técnico</h4>
+        <p>Envie os dados do projeto e receba um orçamento detalhado.</p>
+        <a class="btn" href="index.html#contato">Solicitar Orçamento</a>
+      </aside>
+    </section>
+
+    <section class="case container">
+      <h2>Projetos Recentes</h2>
+      <div class="case-grid">
+        <article class="case-card">
+          <h4>Instalação Industrial — Sumaré</h4>
+          <p>Projeto de distribuição elétrica para linha de produção com análise de harmônicos.</p>
+        </article>
+        <article class="case-card">
+          <h4>Condomínio Residencial — Campinas</h4>
+          <p>Readequação do sistema de iluminação e atualização do SPDA.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq container">
+      <h2>Perguntas Frequentes</h2>
+      <details>
+        <summary>Vocês emitem ART?</summary>
+        <p>Sim, emitimos ART para todos os projetos e laudos técnicos.</p>
+      </details>
+      <details>
+        <summary>Fazem atendimento emergencial?</summary>
+        <p>Sim, possuímos equipe para intervenção e manutenção corretiva.</p>
+      </details>
+    </section>
+
+    <section class="contact-mini container" id="contato">
+      <h2>Vamos conversar?</h2>
+      <p>Preencha o formulário em nossa página inicial ou entre em contato diretamente pelo telefone.</p>
+      <a class="btn-outline" href="index.html#contato">Ir para Contato</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year2"></span> VoltGuard Engenharia — Desenvolvido por Vinícius G. Gonçalves — Todos os direitos reservados.</p>
+      <nav>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating handled in index; included here for users opening this page directly -->
+  <a id="whatsappBtn" class="whatsapp-btn"
+    href="https://wa.me/551900000000?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento" target="_blank"
+    aria-label="Entrar em contato pelo WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+      <path fill="currentColor"
+        d="M20.5 3.5A11.9 11.9 0 0012 0C5.373 0 0 5.373 0 12c0 2.11.547 4.09 1.586 5.83L0 24l6.333-1.586A11.936 11.936 0 0012 24c6.627 0 12-5.373 12-12 0-1.92-.431-3.734-1.5-5.414zM12 22c-1.95 0-3.78-.52-5.37-1.43l-.38-.21L4 21l.07-2.29-.26-.37A9.971 9.971 0 012 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10z" />
+      <path fill="#fff"
+        d="M17.2 14.1c-.3-.1-1.7-.8-1.9-.9-.2-.1-.3-.2-.4.1-.1.3-.4.9-.5 1.1-.1.2-.2.2-.5.1-.3-.1-1.3-.5-2.5-1.6-.9-.8-1.5-1.9-1.6-2.2-.1-.3 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1.05-.2-.03-.3-.08-.1-.4-.9-.6-1.2-.2-.3-.4-.3-.6-.3h-.5c-.2 0-.5 0-.7.3-.2.3-.9 1.1-.9 2.5 0 1.4 1 2.8 1.1 3 .1.2 1.9 3 4.6 4.2 3.2 1.5 3.2 1.1 3.8 1.1.6 0 2-.8 2.3-1.6.3-.8.3-1.6.2-1.8-.1-.2-.6-.3-.9-.4z" />
+    </svg>
+  </a>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
